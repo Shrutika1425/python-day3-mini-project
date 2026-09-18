@@ -1,2 +1,8 @@
-print("hello world")
-print("hello world")
+import csv
+
+with open ("data.csv","r") as file:
+    reader =csv.DictReader(file)
+
+    for row in reader:
+        if row["age"] == 20:
+            print(row["name"])

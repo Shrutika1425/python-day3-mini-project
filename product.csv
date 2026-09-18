@@ -1,0 +1,8 @@
+import csv
+
+with open("new_data.csv","w",newline") as file:
+
+write=csv.write(file)
+write.writerow(["id","name","age"])
+write.writerow ([1,"omkar",23])
+write.writerow([2"rohit"89])

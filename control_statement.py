@@ -5,6 +5,10 @@ age = 18
 if age >= 18:
     print("You are an adult")
 
+
+
+    
+
 # 2. IF-ELSE statement
 marks = 45
 if marks >= 35:
@@ -45,7 +49,7 @@ if username == "shrutika":
         print("Incorrect Password")
 else:
     print("Incorrect Username")
-    
+
 
 
 
