@@ -1,8 +1,6 @@
-import csv
+import pandas as pd 
 
-with open ("data.csv","r") as file:
-    reader =csv.DictReader(file)
+df =pd.read_csv("data.csv")
 
-    for row in reader:
-        if row["age"] == 20:
-            print(row["name"])
+print(df["name"])
+
