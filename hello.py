@@ -1,6 +1,5 @@
-import pandas as pd 
-
-df =pd.read_csv("data.csv")
-
-print(df["name"])
-
+CREAT TABLE products(
+    id INT,
+    name STRING,
+    price INT
+)
