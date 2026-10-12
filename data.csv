@@ -1,4 +1,7 @@
-name,marks,age
-rutuja,99,18
-rdhika,89,18
-shrutika,98,20
+id,name,marks,age,course,department,salary
+1,rutuja,99,18,python,IT,90000
+2,rdhika,89,18,python,sales,95000
+3,shrutika,99,20,python,IT,150000
+4,harshada,77,18,BCS,HR,80000
+5,tanishka,69,19,BCS,sales,98000
+6,bhoomi,78,20,BCS,HR,77000
