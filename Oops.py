@@ -33,7 +33,7 @@ class Person:
         print(f"ID: {self.id}, Name: {self.name}")
 
 # Child Class (Single Inheritance)
-class Student(Person):  # Student inherits from Person
+class Student(Person):  
     def __init__(self, id, name, marks):
         super().__init__(id, name)  # inheriting from parent
         self.marks = marks

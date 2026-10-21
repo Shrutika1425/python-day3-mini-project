@@ -1,11 +1,5 @@
-class user:
+import pandas as pd
 
-    def __init__(self,id,name):
-        self.id=id
-        self.name=name 
+df= pd.read_csv("data.csv")
 
-    def __str__(self):
-         return f"hello{self.name},welcome to python"
-
-    u1 = user(1,"omkar")
-    print(u1)
+print(df.columns)
